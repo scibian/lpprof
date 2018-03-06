@@ -1,0 +1,66 @@
+lpprof (0.2.2+c9+1) calibre9; urgency=medium
+
+  * Correct -o option to make absolute paths work
+  * Correct lpprof man page by escaping special characters
+  * Correct symbols report when cpu utilized is 0
+  * Correct --pids option
+  * Correct lpprof pids option needed for spank plugin
+  * Correct major bug in assembly instructions reporting
+
+ -- Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>  Tue, 06 Mar 2018 11:13:06 +0100
+
+lpprof (0.2.1) unstable; urgency=medium
+
+  * Correct lpprof-spank control file
+  * Change result directory name if SLURM_JOB_ID env variable is set
+  * Improve synchronization when using spank plugin
+  * Remove launcher option choice to enable launcher with arguments
+  * Add Ghz and CPUs-utilized metrics
+  * Weight symbols with cpu utilization and add cpu idle ratio to symbols usage summary
+  * Correct lpprof command when used in interactive mode
+  * Increment output directory name suffix when multiple srun are launched for the same JOBID
+  * Handle interactive cases when number of tasks are not precised
+
+ -- Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>  Fri, 16 Feb 2018 19:14:57 +0100
+
+lpprof (0.2.0) unstable; urgency=medium
+
+  * Change metric unit of vectorization metrics to %
+  * Correct spank plugin error caused by race condition happening while making result directories
+  * Correct a problem occuring when only the last rank was profiled
+  * Correct copyright and rules
+  * Correct incoherent metric min/max values
+  * Correct a bug brougth by last commit
+  * Correct spank plugin that was not working when executable was specified as <subdir>/<exe>
+  * Display help when not argument is given to lpprof
+  * Change option names to conform to posix guidelines and update doc and man accordingly
+  * Correct debian package dependencies
+  * Correct a potential acces to unknown key in metrics dictionnary
+  * Add debian package cleaning
+
+ -- Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>  Tue, 16 Jan 2018 10:40:58 +0100
+
+lpprof (0.1.2) unstable; urgency=medium
+
+  * Correct perf pids driven commands that weren't monitoring the first pid as they should
+  * Correct spank plugin, sort pids and make sure to get back in job submission directory
+
+ -- Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>  Fri, 22 Dec 2017 09:36:26 +0100
+
+lpprof (0.1.1) unstable; urgency=medium
+
+  * Add a Makefile to build spank plugin share library
+  * Add extented description to Debian package
+  * Correct Spank plugin Makefile
+  * Update documentation
+  * Correct a problem occuring when lpprof_r option is not used
+  * Correct README
+  * Correct spank plugin
+
+ -- Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>  Wed, 20 Dec 2017 15:12:13 +0100
+
+lpprof (0.1.0) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Pierre TRESPEUCH <pierre-externe.trespeuch@edf.fr>  Thu, 05 Oct 2017 09:10:09 +0000
