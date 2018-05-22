@@ -1,3 +1,9 @@
+lpprof (0.2.2+c9+1sci9u1) scibian9; urgency=medium
+
+  * Scibian9 Release.
+
+ -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Tue, 22 May 2018 16:53:46 +0200
+
 lpprof (0.2.2+c9+1) calibre9; urgency=medium
 
   * Correct -o option to make absolute paths work
