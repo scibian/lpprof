@@ -1,5 +1,5 @@
 Source: lpprof
-Maintainer: CCN HPC <dsp-cspito-ccn-hpc@edf.fr>
+Maintainer: Scibian Project <packaging@scibian.org>
 Uploaders: Pierre Trespeuch <pierre-externe.trespeuch@edf.fr>
 Section: devel
 Priority: extra
@@ -12,6 +12,8 @@ Build-Depends: asciidoctor,
                pandoc,
                python3-all,
                python3-setuptools
+Vcs-Git: https://github.com/scibian/lpprof.git
+Vcs-Browser: https://github.com/scibian/lpprof
 
 Package: lpprof
 Architecture: any
