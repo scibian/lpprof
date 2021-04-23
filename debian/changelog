@@ -1,3 +1,13 @@
+lpprof (0.2.2+c9+1sci9u2) scibian9; urgency=medium
+
+  [ Kwame AMEDODJI ]
+  * add support of centos build via spec file
+
+  [ Romaric Kanyamibwa ]
+  * rename /etc/slurm-llnl to /etc/slurm
+
+ -- Romaric Kanyamibwa <romaric-externe.kanyamibwa@edf.fr>  Fri, 23 Apr 2021 16:27:49 +0200
+
 lpprof (0.2.2+c9+1sci9u1) scibian9; urgency=medium
 
   * Scibian9 Release.
