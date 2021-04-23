@@ -1,3 +1,9 @@
+lpprof (0.2.2+c9+1sci10u3) scibian10; urgency=medium
+
+  * rename /etc/slurm-llnl to /etc/slurm
+
+ -- Romaric Kanyamibwa <romaric-externe.kanyamibwa@edf.fr>  Fri, 23 Apr 2021 17:06:49 +0200
+
 lpprof (0.2.2+c9+1sci10u2) scibian10; urgency=medium
 
   * Replace linux-tools dependency by linux-perf
