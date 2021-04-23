@@ -1,2 +1,2 @@
 spank/*.so /usr/lib/slurm/.
-spank/lpprof.conf /etc/slurm-llnl/plugstack.conf.d/.
+spank/lpprof.conf /etc/slurm/plugstack.conf.d/.
