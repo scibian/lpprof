@@ -1,3 +1,9 @@
+lpprof (0.2.2+c9+1sci10u4) scibian10; urgency=medium
+
+  * Rebuild for Slurm 21.08
+
+ -- Mathieu Chouquet-Stringer <mathieu-externe.chouquet-stringer@edf.fr>  Wed, 04 May 2022 16:57:29 +0200
+
 lpprof (0.2.2+c9+1sci10u3) scibian10; urgency=medium
 
   * rename /etc/slurm-llnl to /etc/slurm
