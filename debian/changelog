@@ -1,3 +1,9 @@
+lpprof (0.2.2+c9+1sci9u5) scibian9; urgency=medium
+
+  * enforce slurm version to 23.2
+
+ -- Kwame Amedodji <kwame-externe.amedodji@edf.fr>  Wed, 13 Dec 2023 18:04:58 +0100
+
 lpprof (0.2.2+c9+1sci9u4) scibian9; urgency=medium
 
   * New version to Slurm 23.02
