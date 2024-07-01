@@ -1,3 +1,9 @@
+lpprof (0.2.2+c9+1sci11u6) scibian11; urgency=medium
+
+  * Rebuild for slurm 24.05
+
+ -- Thomas HAMEL <thomas-t.hamel@edf.fr>  Mon, 01 Jul 2024 10:55:40 +0200
+
 lpprof (0.2.2+c9+1sci11u5) scibian11; urgency=medium
 
   * enforce slurm version to 23.2
